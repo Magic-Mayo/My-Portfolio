@@ -80,3 +80,12 @@ footer {
     border-top: #dddddd 1px solid;
     margin: 0 auto;
 }
+
+img {
+    float: left
+}
+
+#intro {
+    padding: 0 10px;
+    overflow: auto;
+}
