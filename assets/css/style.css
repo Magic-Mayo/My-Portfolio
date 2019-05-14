@@ -6,7 +6,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#wrapper {
+nav {
     position: fixed;
     width: 100%;
     margin: 0 auto;
@@ -17,6 +17,24 @@ body {
     opacity: .85;
     z-index: 500;
 }
+
+.active {
+    color: #4aaaa5;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+a:hover {
+    background: #4aaaa5;
+    border: #777777 .5px solid;
+    color: #000000;
+    padding: 8px;
+    font-size: 1.5em;
+}
+
 #name {
     position: absolute;
     background: #4aaaa5;
@@ -52,7 +70,7 @@ ul {
 #contact {
     color: #777777;
     border-right: #777777;
-    padding: 0 0 0 5px;
+    padding: 0 5px;
 }
 
 #header {
@@ -76,24 +94,30 @@ h1 {
     padding: 0 0 8px 0;
 }
 
-footer {
+#footer {
+    position: sticky;
+    background: #666666;
     bottom: 0;
     width: 100%;
-    background: #ffffff;
-    text-align: center;
     height: 75px;
-    line-height: 75px;
-    border-top: #dddddd 1px solid;
     margin: 0 auto;
+    border-top: #4aaaa5 8px solid;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+    vertical-align: center;
 }
 
 #me {
     float: left;
-    padding: 0 10px;
+    padding: 0 10px 0 0;
 }
 
 .intro {
     padding: 0 10px;
+    line-height: 1.4em;
 }
 
 #board {
