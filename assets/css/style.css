@@ -14,20 +14,23 @@ body {
     height: 75px;
     border-bottom: #dddddd 1px solid;
     top: 0;
+    opacity: .85;
+    z-index: 500;
 }
 #name {
     position: absolute;
     background: #4aaaa5;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0 0 0 25%;
     float: left;
-    padding: 23.5px 8px;
+    padding: 0 8px;
+    margin: 0 auto;
+    line-height: 76px;
 }
 
 ul {
     list-style: none;
-    margin: 0 25% 0 0;
+    margin: 0 auto;
     padding: 28px 3px;
     display: flex;
     flex-direction: row;
@@ -54,11 +57,13 @@ ul {
 
 #header {
     position: relative;
+    width: 960px;
+    margin: 0 auto;
 }
 
 #container {
-    width: 960px;
-    margin: 100px 25%;
+    width: 930px;
+    margin: 100px auto;
     background: #ffffff;
     border: #dddddd 1px solid;
     padding: 0 15px;
@@ -77,16 +82,46 @@ footer {
     background: #ffffff;
     text-align: center;
     height: 75px;
-    padding: 23.5px 0;
+    line-height: 75px;
     border-top: #dddddd 1px solid;
     margin: 0 auto;
 }
 
-img {
-    float: left
+#me {
+    float: left;
+    padding: 0 10px;
 }
 
-#intro {
+.intro {
     padding: 0 10px;
-    overflow: auto;
+}
+
+#board {
+    margin: 20px 63px 10px 63px;
+    position: relative;
+    border: #777777 2px solid;
+}
+
+#fall {
+    margin: 10px 63px 10px 0;
+    position: relative;
+    border: #777777 2px solid;
+}
+
+#laptop {
+    margin: 10px 63px;
+    position: relative;
+    border: #777777 2px solid;
+}
+
+#office {
+    margin: 10px 63px 10px 0;
+    position: relative;
+    border: #777777 2px solid;
+}
+
+#water {
+    margin: 10px 63px 20px 63px;
+    position: relative;
+    border: #777777 2px solid;
 }
