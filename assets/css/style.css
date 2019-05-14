@@ -46,15 +46,17 @@ a:hover {
     padding: 0 8px;
     margin: 0;
     line-height: 76px;
+    margin-left: 8px;
 }
 
 ul {
     list-style: none;
-    margin: 0 auto;
+    margin: 0;
     padding: 28px 3px;
     display: flex;
     flex-direction: row;
     float: right;
+    margin-right: 8px;
 }
 
 #about {
@@ -85,10 +87,7 @@ ul {
     width: 960px;
     margin: 100px auto;
     background: #ffffff;
-    border: #dddddd 1px solid;
-    padding: 0 15px;
-    min-height: 100%;
-    
+    border: #dddddd 1px solid;    
 }
 
 h1 {
@@ -131,36 +130,32 @@ footer {
 }
 
 .content {
-    padding-bottom: 75px;
+    padding: 0px 15px 75px;
 }
 
 .row1 {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     flex: 1;
-    justify-content: center;
+    width: 800px;
+    justify-content: space-between;
+    margin: 0 auto 25px;
 }
 
 .row2 {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     flex: 1;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto 25px;
 }
 
 .row3 {
     display: flex;
     flex-flow: row wrap;
     flex: 1;
-    justify-content: space-evenly;
-}
-
-.column {
-    display: flex;
-    flex: 1;
-}
-
-.column2 {
-    display: flex;
-    flex: 1;
+    justify-content: center;
+    width: 80px;
+    margin: 0 auto 25px;
 }
