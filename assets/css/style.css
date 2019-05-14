@@ -1,9 +1,16 @@
+html {
+    height: 100%;
+}
+
 body {
     /* Background pattern from Toptal Subtle Patterns */
     background-image: url("../images/retina_wood_@2X.png");
     background-attachment: scroll;
     margin: 0 auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 
 nav {
@@ -80,11 +87,12 @@ ul {
 }
 
 #container {
-    width: 930px;
+    width: 960px;
     margin: 100px auto;
     background: #ffffff;
     border: #dddddd 1px solid;
     padding: 0 15px;
+    flex: 1 0 auto;
 }
 
 h1 {
@@ -100,14 +108,13 @@ h1 {
     bottom: 0;
     width: 100%;
     height: 75px;
-    margin: 0 auto;
     border-top: #4aaaa5 8px solid;
+    flex-shrink: 1;
 }
 
 footer {
     margin-top: 50px;
     text-align: center;
-    vertical-align: center;
 }
 
 #me {
@@ -121,31 +128,52 @@ footer {
 }
 
 #board {
-    margin: 20px 63px 10px 63px;
-    position: relative;
     border: #777777 2px solid;
 }
 
 #fall {
-    margin: 10px 63px 10px 0;
-    position: relative;
     border: #777777 2px solid;
 }
 
 #laptop {
-    margin: 10px 63px;
-    position: relative;
     border: #777777 2px solid;
 }
 
 #office {
-    margin: 10px 63px 10px 0;
-    position: relative;
     border: #777777 2px solid;
 }
 
 #water {
-    margin: 10px 63px 20px 63px;
-    position: relative;
     border: #777777 2px solid;
+}
+
+.row1 {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    justify-content: center;
+}
+
+.row2 {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.row3 {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1;
+    justify-content: space-evenly;
+}
+
+.column {
+    display: flex;
+    flex: 1;
+}
+
+.column2 {
+    display: flex;
+    flex: 1;
 }
