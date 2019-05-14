@@ -29,7 +29,7 @@ a {
     color: #777777;
 }
 
-a:hover {
+ul a:hover {
     background: #4aaaa5;
     border: #777777 .5px solid;
     color: #000000;
