@@ -133,7 +133,7 @@ footer {
     padding: 0px 15px 75px;
 }
 
-.row1 {
+#row1 {
     display: flex;
     flex-flow: row nowrap;
     flex: 1;
@@ -142,7 +142,7 @@ footer {
     margin: 0 auto 25px;
 }
 
-.row2 {
+#row2 {
     display: flex;
     flex-flow: row nowrap;
     flex: 1;
@@ -151,7 +151,7 @@ footer {
     margin: 0 auto 25px;
 }
 
-.row3 {
+#row3 {
     display: flex;
     flex-flow: row nowrap;
     flex: 1;
