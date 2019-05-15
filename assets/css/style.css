@@ -160,11 +160,11 @@ footer {
     margin: 0 auto 25px;
 }
 
-.row1 img {
+#row1 img {
     position: relative;
 }
 
-.row1 div {
+#row1 div {
     position: absolute;
     background: #4aaaa5;
     width: 360px;
@@ -176,15 +176,15 @@ footer {
     padding: 10px 0;
 }
 
-.row1 div p {
+#row1 div p {
     margin: auto;
 }
 
-.row2 img {
+#row2 img {
     position: relative;
 }
 
-.row2 div {
+#row2 div {
     position: absolute;
     background: #4aaaa5;
     width: 360px;
@@ -196,15 +196,15 @@ footer {
     padding: 10px 0;
 }
 
-.row2 div p {
+#row2 div p {
     margin: auto;
 }
 
-.row3 img {
+#row3 img {
     position: relative;
 }
 
-.row3 div {
+#row3 div {
     position: absolute;
     background: #4aaaa5;
     width: 360px;
@@ -216,6 +216,6 @@ footer {
     padding: 10px 0;
 }
 
-.row3 div p {
+#row3 div p {
     margin: auto;
 }
