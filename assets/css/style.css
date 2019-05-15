@@ -85,6 +85,7 @@ ul {
 
 #container {
     width: 960px;
+    height: auto;
     margin: 100px auto;
     background: #ffffff;
     border: #dddddd 1px solid;    
@@ -160,62 +161,44 @@ footer {
     margin: 0 auto 25px;
 }
 
-#row1 img {
-    position: relative;
-}
-
-#row1 div {
-    position: absolute;
+#row1 p {
     background: #4aaaa5;
     width: 360px;
     text-align: center;
     font-size: 1.4em;
     color: #ffffff;
     margin-left: 2px;
-    bottom: 25px;
     padding: 10px 0;
 }
 
-#row1 div p {
-    margin: auto;
+#row1 img {
+    margin-bottom: -100px;
+}
+
+#row2 p {
+    background: #4aaaa5;
+    width: 360px;
+    text-align: center;
+    font-size: 1.4em;
+    color: #ffffff;
+    margin-left: 2px;
+    padding: 10px 0;
 }
 
 #row2 img {
-    position: relative;
+    margin-bottom: -100px;
 }
 
-#row2 div {
-    position: absolute;
+#row3 p {
     background: #4aaaa5;
     width: 360px;
     text-align: center;
     font-size: 1.4em;
     color: #ffffff;
     margin-left: 2px;
-    bottom: 25px;
     padding: 10px 0;
-}
-
-#row2 div p {
-    margin: auto;
 }
 
 #row3 img {
-    position: relative;
-}
-
-#row3 div {
-    position: absolute;
-    background: #4aaaa5;
-    width: 360px;
-    text-align: center;
-    font-size: 1.4em;
-    color: #ffffff;
-    margin-left: 2px;
-    bottom: 25px;
-    padding: 10px 0;
-}
-
-#row3 div p {
-    margin: auto;
+    margin-bottom: -100px;
 }
