@@ -25,12 +25,14 @@ nav {
 a {
     text-decoration: none;
     color: #777777;
+    transition-delay: .1s;
+    transition-duration: .75s;
 }
 
 ul a:hover {
     background: #4aaaa5;
     border: #777777 .5px solid;
-    color: #000000;
+    color: #ffffff;
     padding: 8px;
     font-size: 1.5em;
 }
@@ -55,8 +57,6 @@ ul {
     flex-direction: row;
     float: right;
     margin-right: 8px;
-    transition-delay: .1s;
-    transition-duration: 1s;
 }
 
 #about {
