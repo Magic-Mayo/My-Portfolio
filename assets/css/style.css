@@ -55,6 +55,8 @@ ul {
     flex-direction: row;
     float: right;
     margin-right: 8px;
+    transition-delay: .1s;
+    transition-duration: 1s;
 }
 
 #about {
