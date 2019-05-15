@@ -209,7 +209,7 @@ footer {
 }
 
 img {
-    opacity: .5;
+    opacity: .45;
     transition-delay: .1s;
     transition-duration: 1s;
 }
