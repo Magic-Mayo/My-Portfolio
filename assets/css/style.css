@@ -211,8 +211,11 @@ img {
     opacity: .45;
     transition-delay: .1s;
     transition-duration: 1s;
+    
 }
 
 img:hover {
     opacity: 1;
+    transform: rotateY(180deg);
+    animation-delay: .1s;
 }
