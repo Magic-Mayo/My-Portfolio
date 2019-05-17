@@ -218,8 +218,6 @@ img {
     
 }
 
-#img:hover {
+img:hover {
     opacity: 1;
-    transform: rotateY(180deg);
-    animation-delay: .1s;
 }
